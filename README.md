@@ -7,4 +7,4 @@ yarn install
 
 ## Development
 
-yarn run develop
+yarn run dev
