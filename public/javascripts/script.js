@@ -9,6 +9,7 @@ $(document).ready(function() {
       $("#audioControl").html("UNMUTE");
     }
   });
+  $("body").css({ width: window.innerWidth + 200 });
 });
 
 var audioControlTop;
