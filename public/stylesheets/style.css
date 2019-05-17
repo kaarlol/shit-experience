@@ -1,8 +1,11 @@
 body {
+  text-align: center;
   padding: 50px;
   font: 14px "Comic Sans MS";
 }
 
-a {
-  color: #00b7ff;
+#audioControl {
+  position: absolute;
+  text-decoration: underline;
+  opacity: 0.5;
 }
