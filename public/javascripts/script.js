@@ -11,8 +11,11 @@ $(document).ready(function() {
   });
 });
 
+var audioControlTop;
+var audioControlLeft;
+
 setInterval(function() {
-  var audioControlTop = window.innerHeight * Math.random();
-  var audioControlLeft = window.innerWidth * Math.random();
+  audioControlTop = window.innerHeight * Math.random();
+  audioControlLeft = window.innerWidth * Math.random();
   $("#audioControl").css({ top: audioControlTop, left: audioControlLeft });
 }, 1500);
